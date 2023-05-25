@@ -11,7 +11,7 @@ Initial Model: For my initial model, I decided to include 3 layers: an input lay
 **Optimization attempts**
 1. I attempted to optimize the model’s performance by first making adjustments to the neurons. I modified the total number of neurons to 86 so it would be about two times the number of input features. In this case, there were 43 input features remaining after removing 2 irrelevant ones. After adjusting the amount of neurons I got an accuracy score of  for my training set and  for my testing set.
 
-2.
+2. For my next attempt I changed the architecture of the model by adding 2 dropout layers with a rate of 0.5 to enhance generalization and changed the activation function to tanh in the input and hidden layer. With that I got an accuracy score of  for my training set and  for my testing set.
 
 
 3. 
