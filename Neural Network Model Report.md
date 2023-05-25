@@ -8,9 +8,6 @@ During preprocessing, I implemented binning/bucketing for rare occurrences in th
 #### Compiling, Training, and Evaluating the Model
 Initial Model: For my initial model, I decided to include 3 layers: an input layer with 50 neurons, a second layer with 25 neurons, and an output layer with 1 neuron. I made this choice because I believed it was a good starting point for the model. In this case, there were 43 input features remaining after removing 2 irrelevant ones. I selected the `relu` activation function for the first and second layers, and the `sigmoid` activation function for the output layer since the goal was binary classification. To start, I trained the model for 100 epochs and achieved an accuracy score of approximately  for the training data and  for the testing data.
 
-to ensure that the total number of neurons in the model was between 2-3 times the number of input features. In this case, there were 43 input features remaining after removing 2 irrelevant ones.
-
-
 **Optimization attempts**
 1. I attempted to optimize the model’s performance by first making adjustments to the neurons. I modified the total number of neurons to 86 so it would be about two times the number of input features. In this case, there were 43 input features remaining after removing 2 irrelevant ones. After adjusting the amount of neurons I got an accuracy score of  for my training set and  for my testing set.
 
